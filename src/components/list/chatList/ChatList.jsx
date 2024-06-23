@@ -1,9 +1,9 @@
 import "./chatList.css"
 
-const chatList = () => {
+const ChatList = () => {
     return (
-        <div className='ChatList'>Chat List</div>
+        <div className='chatList'>Chat List</div>
     )
 }  
 
-export default chatList
+export default ChatList
