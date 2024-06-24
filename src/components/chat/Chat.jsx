@@ -1,6 +1,10 @@
+import { useState } from "react";
 import "./chat.css"
+import EmojiPicker from "emoji-picker-react";
 
 const Chat = () => {
+const [open,setOpen] = useState(false) 
+
     return (
         <div className='chat'>
 
@@ -34,7 +38,8 @@ const Chat = () => {
 
                 <input type="text" placeholder="Type a message..."></input>
                 <div className="emoji">
-                    <img src="./emoji.png" alt="emoji"></img>
+                    <img src="./emoji.png" alt="emoji" onClick={() => setOpen((prev) => !prev)}></img>
+                    <EmojiPicker open={open}/>
                 </div>
 
                 <button className="sendButton">Send</button>
