@@ -3,7 +3,13 @@ import "./chat.css"
 import EmojiPicker from "emoji-picker-react";
 
 const Chat = () => {
-const [open,setOpen] = useState(false) 
+const [open,setOpen] = useState(false);
+const [text,setText] = useState("");
+
+const handleEmoji = e => {
+    setText(prev => prev + e.emoji);
+    setOpen(false)
+};
 
     return (
         <div className='chat'>
@@ -36,10 +42,13 @@ const [open,setOpen] = useState(false)
                     <img src="./mic.png" alt="mic"></img>
                 </div>
 
-                <input type="text" placeholder="Type a message..."></input>
+                <input type="text" placeholder="Type a message..."
+                value={text} 
+                onChange={(e) => setText(e.target.value)}></input>
+                
                 <div className="emoji">
                     <img src="./emoji.png" alt="emoji" onClick={() => setOpen((prev) => !prev)}></img>
-                    <EmojiPicker open={open}/>
+                    <EmojiPicker open={open} onEmojiClick={handleEmoji}/>
                 </div>
 
                 <button className="sendButton">Send</button>
