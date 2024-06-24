@@ -45,10 +45,16 @@ const handleEmoji = e => {
                 <input type="text" placeholder="Type a message..."
                 value={text} 
                 onChange={(e) => setText(e.target.value)}></input>
-                
+
                 <div className="emoji">
                     <img src="./emoji.png" alt="emoji" onClick={() => setOpen((prev) => !prev)}></img>
+
+                    <div className="picker">
+
                     <EmojiPicker open={open} onEmojiClick={handleEmoji}/>
+
+                    </div>
+
                 </div>
 
                 <button className="sendButton">Send</button>
