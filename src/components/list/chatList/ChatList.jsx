@@ -21,64 +21,56 @@ const ChatList = () => {
             <div className="item">
                 <img src="./avatar.png" alt="avatar" />
                 <div className="texts">
-                    <span>User Name</span>
-                    <p>Hi</p>
+                    <span>Deandre</span>
+                    <p>Hey</p>
                 </div>
             </div>
 
             <div className="item">
                 <img src="./avatar.png" alt="avatar" />
                 <div className="texts">
-                    <span>User Name</span>
-                    <p>Hi</p>
+                    <span>Sabrina</span>
+                    <p>Hey</p>
                 </div>
             </div>
 
             <div className="item">
                 <img src="./avatar.png" alt="avatar" />
                 <div className="texts">
-                    <span>User Name</span>
-                    <p>Hi</p>
+                    <span>Alex</span>
+                    <p>Hey</p>
                 </div>
             </div>
 
             <div className="item">
                 <img src="./avatar.png" alt="avatar" />
                 <div className="texts">
-                    <span>User Name</span>
-                    <p>Hi</p>
+                    <span>Robert</span>
+                    <p>Hey</p>
                 </div>
             </div>
 
             <div className="item">
                 <img src="./avatar.png" alt="avatar" />
                 <div className="texts">
-                    <span>User Name</span>
-                    <p>Hi</p>
+                    <span>Jasmine</span>
+                    <p>Hey</p>
                 </div>
             </div>
 
             <div className="item">
                 <img src="./avatar.png" alt="avatar" />
                 <div className="texts">
-                    <span>User Name</span>
-                    <p>Hi</p>
+                    <span>Zay</span>
+                    <p>Hey</p>
                 </div>
             </div>
 
             <div className="item">
                 <img src="./avatar.png" alt="avatar" />
                 <div className="texts">
-                    <span>User Name</span>
-                    <p>Hi</p>
-                </div>
-            </div>
-
-            <div className="item">
-                <img src="./avatar.png" alt="avatar" />
-                <div className="texts">
-                    <span>User Name</span>
-                    <p>Hi</p>
+                    <span>Reggie</span>
+                    <p>Hey</p>
                 </div>
             </div>
 

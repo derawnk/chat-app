@@ -18,8 +18,8 @@ const handleEmoji = e => {
                 <div className="user">
                     <img src="./avatar.png" alt="avatar"></img>
                     <div className="texts">
-                        <span>User Name</span>
-                        <p>User Description Area.</p>
+                        <span>Rawn Kelly</span>
+                        <p>CS Major @ FSU</p>
                     </div>
                 </div>
 
@@ -37,7 +37,7 @@ const handleEmoji = e => {
                 <div className="message">
                     <img src="./avatar.png" alt="avatar"/>
                     <div className="texts">
-                        <p>TBD Message</p>
+                        <p>Hey did you watch the game last night?</p>
                         <span>1 min ago</span>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ const handleEmoji = e => {
 
                 <div className="message own">
                     <div className="texts">
-                        <p>TBD Message</p>
+                        <p>Which game?, NBA, NFL...</p>
                         <span>1 min ago</span>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ const handleEmoji = e => {
                 <div className="message">
                     <img src="./avatar.png" alt="avatar"/>
                     <div className="texts">
-                        <p>TBD Message</p>
+                        <p>Lakers vs Celtics</p>
                         <span>1 min ago</span>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ const handleEmoji = e => {
 
                 <div className="message own">
                     <div className="texts">
-                        <p>TBD Message</p>
+                        <p>Nah I was at work, who won?</p>
                         <span>1 min ago</span>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ const handleEmoji = e => {
                 <div className="message">
                     <img src="./avatar.png" alt="avatar"/>
                     <div className="texts">
-                        <p>TBD Message</p>
+                        <p>Lakers, bron even got a triple double</p>
                         <span>1 min ago</span>
                     </div>
                 </div>
@@ -78,7 +78,8 @@ const handleEmoji = e => {
 
                 <div className="message own">
                     <div className="texts">
-                        <p>TBD Message</p>
+                        <img src="./lbj.png" alt="lebron"></img>
+                        <p>LETS GO LAKERS!</p>
                         <span>1 min ago</span>
                     </div>
                 </div>
