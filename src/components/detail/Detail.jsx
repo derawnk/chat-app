@@ -7,8 +7,8 @@ const Detail = () => {
             <div className="user">
 
                 <img src="./avatar.png" alt="avatar"></img>
-                <h2>User Name</h2>
-                <p>Details Section User Text</p>
+                <h2>Rawn Kelly</h2>
+                <p>CS Major @ FSU</p>
 
             </div>
             
@@ -45,7 +45,7 @@ const Detail = () => {
 
                             </div>
 
-                            <img src="./download.png" alt="download"></img>
+                            <img src="./download.png" alt="download" className="icon"></img>
                         </div>
 
                          <div className="photoItem">
@@ -57,7 +57,7 @@ const Detail = () => {
 
                             </div>
 
-                            <img src="./download.png" alt="download"></img>
+                            <img src="./download.png" alt="download" className="icon"></img>
                         </div>
 
                         <div className="photoItem">
@@ -69,7 +69,7 @@ const Detail = () => {
 
                             </div>
 
-                            <img src="./download.png" alt="download"></img>
+                            <img src="./download.png" alt="download" className="icon"></img>
                         </div>
 
                          <div className="photoItem">
@@ -81,11 +81,11 @@ const Detail = () => {
 
                             </div>
 
-                            <img src="./download.png" alt="download"></img>
+                            <img src="./download.png" alt="download" className="icon"></img>
                         </div>
 
                     </div>
-                    
+
                 </div>
 
                 <div className="option">
