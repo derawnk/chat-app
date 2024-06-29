@@ -48,7 +48,7 @@ const handleEmoji = e => {
                     <img src="./avatar.png" alt="avatar"/>
                     <div className="texts">
                         <p>Hey did you watch the game last night?</p>
-                        <span>1 min ago</span>
+                        <span>12 min ago</span>
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@ const handleEmoji = e => {
                 <div className="message own">
                     <div className="texts">
                         <p>Which game?, NBA, NFL...</p>
-                        <span>1 min ago</span>
+                        <span>9 min ago</span>
                     </div>
                 </div>
 
@@ -64,7 +64,7 @@ const handleEmoji = e => {
                     <img src="./avatar.png" alt="avatar"/>
                     <div className="texts">
                         <p>Lakers vs Celtics</p>
-                        <span>1 min ago</span>
+                        <span>7 min ago</span>
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@ const handleEmoji = e => {
                 <div className="message own">
                     <div className="texts">
                         <p>Nah I was at work, who won?</p>
-                        <span>1 min ago</span>
+                        <span>6 min ago</span>
                     </div>
                 </div>
 
@@ -81,7 +81,7 @@ const handleEmoji = e => {
                     <img src="./avatar.png" alt="avatar"/>
                     <div className="texts">
                         <p>Lakers, bron even got a triple double</p>
-                        <span>1 min ago</span>
+                        <span>5 min ago</span>
                     </div>
                 </div>
 
@@ -90,7 +90,7 @@ const handleEmoji = e => {
                     <div className="texts">
                         <img src="./lbj.png" alt="lebron"></img>
                         <p>LETS GO LAKERS!</p>
-                        <span>1 min ago</span>
+                        <span>4 min ago</span>
                     </div>
                 </div>
 

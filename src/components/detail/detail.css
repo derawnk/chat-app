@@ -18,10 +18,10 @@
     }
 
     .info {
-        padding: 20px;
+        padding: 12px;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 23px;
 
         .option {
             
@@ -83,8 +83,8 @@
             }
         }
 
-        button {
-            padding: 10px 20px;
+        .block {
+            padding: 8px 20px;
             background-color: rgba(230, 74, 105, 0.553);
             color: white;
             border: none;
@@ -94,6 +94,21 @@
 
             &:hover {
                 background-color: rgba(220, 20, 60, 0.796)
+            }
+
+        }
+
+        .logOut {
+            padding: 8px 20px;
+            background-color: rgba(34, 112, 175, 0.553);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: -4%;
+
+            &:hover {
+                background-color: rgba(100, 171, 247, 0.796)
             }
         }
     }

@@ -95,7 +95,9 @@ const Detail = () => {
                     </div>
                 </div>
 
-                <button>Block</button>
+                <button className="block">Block</button>
+
+                <button className="logOut">Log Out</button>
 
             </div>
 
