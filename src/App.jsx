@@ -6,7 +6,7 @@ import Notification from "./components/notification/Notification";
 
 const App = () => {
 
-  const user = false 
+  const user = true 
     return (
       <div className='container'>
         {
@@ -27,4 +27,4 @@ const App = () => {
     );
   };
   
-  export default App
+  export default App;

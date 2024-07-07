@@ -6,7 +6,7 @@ const Notification = () => {
         <div className="">
             <ToastContainer position="bottom-right"/>
         </div>
-    )
-}
+    );
+};
 
-export default Notification
+export default Notification;
