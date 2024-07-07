@@ -18,6 +18,33 @@
              align-items: center;
              justify-content: center;
              gap: 20px;
+
+             input {
+                padding: 20px;
+                border: none;
+                outline: none;
+                color: white;
+                background-color: rgba(17,25,40,0.6);
+                border-radius: 5px;
+             }
+
+             label {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                cursor: pointer;
+                text-decoration: underline;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 10px;
+                    object-fit: cover;
+                    opacity: 0.6;
+                }
+
+             }
         }
     }
 }
