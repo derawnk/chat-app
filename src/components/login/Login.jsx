@@ -32,7 +32,7 @@ const Login = () => {
 
         </div>
 
-        <div className="seperator"></div>
+        <div className="separator"></div>
 
         <div className="item">
 
