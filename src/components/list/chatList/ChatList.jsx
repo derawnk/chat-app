@@ -74,7 +74,7 @@ const ChatList = () => {
                     <p>Hey</p>
                 </div>
             </div>
-            <AddUser/>
+            {addMode && <AddUser/>}
 
         </div>
     );
